@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B674DAF15DF30730037D93A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B674DAE15DF30730037D93A /* UIKit.framework */; };
+		3B674DB115DF30730037D93A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B674DB015DF30730037D93A /* Foundation.framework */; };
+		3B674DB315DF30730037D93A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B674DB215DF30730037D93A /* CoreGraphics.framework */; };
+		3B674DB915DF30730037D93A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B674DB715DF30730037D93A /* InfoPlist.strings */; };
+		3B674DBB15DF30730037D93A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B674DBA15DF30730037D93A /* main.m */; };
+		3B674DBF15DF30730037D93A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B674DBE15DF30730037D93A /* AppDelegate.m */; };
+		3B674DC215DF30730037D93A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B674DC115DF30730037D93A /* RootViewController.m */; };
+		3B674DC515DF30730037D93A /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B674DC415DF30730037D93A /* DataViewController.m */; };
+		3B674DC815DF30730037D93A /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B674DC715DF30730037D93A /* ModelController.m */; };
+		3B674DCB15DF30730037D93A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B674DC915DF30730037D93A /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B674DAA15DF30730037D93A /* HeroGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B674DAE15DF30730037D93A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B674DB015DF30730037D93A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B674DB215DF30730037D93A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B674DB615DF30730037D93A /* HeroGo-Info.plist */ = {isa = PBXFileReference; path = "HeroGo-Info.plist"; sourceTree = "<group>"; };
+		3B674DB815DF30730037D93A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B674DBA15DF30730037D93A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B674DBC15DF30730037D93A /* HeroGo-Prefix.pch */ = {isa = PBXFileReference; path = "HeroGo-Prefix.pch"; sourceTree = "<group>"; };
+		3B674DBD15DF30730037D93A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B674DBE15DF30730037D93A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B674DC015DF30730037D93A /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		3B674DC115DF30730037D93A /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3B674DC315DF30730037D93A /* DataViewController.h */ = {isa = PBXFileReference; path = DataViewController.h; sourceTree = "<group>"; };
+		3B674DC415DF30730037D93A /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		3B674DC615DF30730037D93A /* ModelController.h */ = {isa = PBXFileReference; path = ModelController.h; sourceTree = "<group>"; };
+		3B674DC715DF30730037D93A /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		3B674DCA15DF30730037D93A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B674DA715DF30730037D93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B674DAF15DF30730037D93A /* UIKit.framework in Frameworks */,
+				3B674DB115DF30730037D93A /* Foundation.framework in Frameworks */,
+				3B674DB315DF30730037D93A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B674D9F15DF30730037D93A = {
+			isa = PBXGroup;
+			children = (
+				3B674DB415DF30730037D93A /* HeroGo */,
+				3B674DAD15DF30730037D93A /* Frameworks */,
+				3B674DAB15DF30730037D93A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B674DAB15DF30730037D93A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B674DAA15DF30730037D93A /* HeroGo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B674DAD15DF30730037D93A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B674DAE15DF30730037D93A /* UIKit.framework */,
+				3B674DB015DF30730037D93A /* Foundation.framework */,
+				3B674DB215DF30730037D93A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B674DB415DF30730037D93A /* HeroGo */ = {
+			isa = PBXGroup;
+			children = (
+				3B674DBD15DF30730037D93A /* AppDelegate.h */,
+				3B674DBE15DF30730037D93A /* AppDelegate.m */,
+				3B674DC015DF30730037D93A /* RootViewController.h */,
+				3B674DC115DF30730037D93A /* RootViewController.m */,
+				3B674DC315DF30730037D93A /* DataViewController.h */,
+				3B674DC415DF30730037D93A /* DataViewController.m */,
+				3B674DC615DF30730037D93A /* ModelController.h */,
+				3B674DC715DF30730037D93A /* ModelController.m */,
+				3B674DC915DF30730037D93A /* MainStoryboard.storyboard */,
+				3B674DB515DF30730037D93A /* Supporting Files */,
+			);
+			path = HeroGo;
+			sourceTree = "<group>";
+		};
+		3B674DB515DF30730037D93A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B674DB615DF30730037D93A /* HeroGo-Info.plist */,
+				3B674DB715DF30730037D93A /* InfoPlist.strings */,
+				3B674DBA15DF30730037D93A /* main.m */,
+				3B674DBC15DF30730037D93A /* HeroGo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B674DA915DF30730037D93A /* HeroGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B674DCE15DF30730037D93A /* Build configuration list for PBXNativeTarget "HeroGo" */;
+			buildPhases = (
+				3B674DA615DF30730037D93A /* Sources */,
+				3B674DA715DF30730037D93A /* Frameworks */,
+				3B674DA815DF30730037D93A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeroGo;
+			productName = HeroGo;
+			productReference = 3B674DAA15DF30730037D93A /* HeroGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B674DA115DF30730037D93A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3B674DA415DF30730037D93A /* Build configuration list for PBXProject "HeroGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B674D9F15DF30730037D93A;
+			productRefGroup = 3B674DAB15DF30730037D93A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B674DA915DF30730037D93A /* HeroGo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B674DA815DF30730037D93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B674DB915DF30730037D93A /* InfoPlist.strings in Resources */,
+				3B674DCB15DF30730037D93A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B674DA615DF30730037D93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B674DBB15DF30730037D93A /* main.m in Sources */,
+				3B674DBF15DF30730037D93A /* AppDelegate.m in Sources */,
+				3B674DC215DF30730037D93A /* RootViewController.m in Sources */,
+				3B674DC515DF30730037D93A /* DataViewController.m in Sources */,
+				3B674DC815DF30730037D93A /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B674DB715DF30730037D93A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B674DB815DF30730037D93A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B674DC915DF30730037D93A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B674DCA15DF30730037D93A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B674DCC15DF30730037D93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B674DCD15DF30730037D93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B674DCF15DF30730037D93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeroGo/HeroGo-Prefix.pch";
+				INFOPLIST_FILE = "HeroGo/HeroGo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B674DD015DF30730037D93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeroGo/HeroGo-Prefix.pch";
+				INFOPLIST_FILE = "HeroGo/HeroGo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B674DA415DF30730037D93A /* Build configuration list for PBXProject "HeroGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B674DCC15DF30730037D93A /* Debug */,
+				3B674DCD15DF30730037D93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B674DCE15DF30730037D93A /* Build configuration list for PBXNativeTarget "HeroGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B674DCF15DF30730037D93A /* Debug */,
+				3B674DD015DF30730037D93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B674DA115DF30730037D93A /* Project object */;
+}
